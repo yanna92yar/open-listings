@@ -1,5 +1,0 @@
-# Open-listings
-
-See README
-
-

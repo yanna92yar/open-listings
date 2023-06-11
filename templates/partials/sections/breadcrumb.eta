@@ -1,9 +1,0 @@
-<% if(typeof data.section !='undefined' && typeof data.parent !='undefined' && typeof data.granpa !='undefined' ){ %>
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/tag/granpa/<%=data.granpa %>"><%= data.granpa %></a></li>
-    <li class="breadcrumb-item"><a href="/tag/parent/<%=data.parent %>"><%= data.parent %></a></li>
-    <li class="breadcrumb-item active" aria-current="page"><%= data.title %></li>
-  </ol>
-</nav>
-<% } %>

@@ -3,7 +3,7 @@
 **Open-listings is a listings' website, particularly, similar to the open-listings we see on news-papers. Let's bring the same idea to the web; This time offering rich input forms, interactive UI, an interactive Map all presented to user with multiple languages and most importantly respecting users privacy.**  
 
 <br>
-<img src="./../.github/logo.svg" alt="Open-listings logo" />
+<img src="logo.svg" alt="Open-listings logo" />
 <br>
 <br>
 
