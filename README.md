@@ -1,4 +1,3 @@
-# Open-listings
 
 **Open-listings is a listings' website, particularly, similar to the open-listings we see on news-papers. Let's bring the same idea to the web; This time offering rich input forms, interactive UI, an interactive Map all presented to user with multiple languages and most importantly respecting users privacy.**  
 
@@ -21,13 +20,20 @@
 
 ## Maps are simple files !
 
-Example:
+You can simply target a geolocation, having a delimited map either only the border or with its states or regions. We support geojson files just like the following examples:  
+<br>
 <script src="https://embed.github.com/view/geojson/yanna92yar/open-listings-data/main/states.fr.min.json"></script>
-
+<br>
 <script src="https://embed.github.com/view/geojson/yanna92yar/open-listings-data/main/geojson_nation_US.geojson"></script>
 
 ## Multi-languages
-...
+
+Open-listings support multiple languages not only for the user interface, but through the whole user experience. Something like Quora, but can be more implicit providing an easier navigation either for publishers or viewers.
+
+A new listing will be analysed by an "machine learning" engine; It is offline and part of Open-listings saving the best performance. The same happens when a viewer searches for listings, we provide a cross-language findings.
+
+## Captures
+Comming soon ...  
 
 ---
 
