@@ -1,0 +1,93 @@
+<style>
+  /* input[type='text'] {
+    position: fixed;
+    bottom: 10px;
+    left: 12px;
+    outline: none;
+    width: 400px;
+    border: #555 solid 1px;
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  .app-layout {
+    display: grid;
+    height: 50vh;
+    grid-template-columns: 50px 125px 1fr;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  .header {
+    background-color: #ffffff;
+  }
+
+  .teams {
+    background-color: #362233;
+  }
+
+  .channels {
+    background-color: #52364E;
+  }
+
+  .messages {
+    background-color: #ffffff;
+  }
+
+  .write {
+    background-color: #f2f2f2;
+  }
+
+  .teams {
+    grid-column: 1;
+    grid-row: 1 / 4;
+  }
+
+  .channels {
+    grid-column: 2;
+    grid-row: 1 / 4;
+    color: white;
+  }
+
+  .header {
+    grid-column: 3;
+    grid-row: 1;
+    color: #333;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .messages {
+    grid-column: 3;
+    grid-row: 2;
+    padding: 0 1em;
+    overflow-y: scroll;
+  }
+
+  .input {
+    grid-column: 3;
+    grid-row: 3;
+  } */
+</style>
+<!-- <input id="message" type="text" autofocus /> -->
+<div class="app-layout">
+  <div class="teams box">Teams</div>
+  <ul class="channels box" id="channels box">Channels</ul>
+  <div class="header box">Header</div>
+  <div class="messages box">
+    <ul class="message-list" id="message-list">
+    </ul>
+  </div>
+  <div class="input box">
+    <input id="messenger" type="text" autofocus placeholder="Have you tried the CSS Grid Layout Module?" />
+  </div>
+</div>
+<div id="channels"></div>
+
+
+<script>
+  {
+    const scriptElement = document.createElement("script")
+    scriptElement.src = "/javascripts/chat.js"
+    document.body.appendChild(scriptElement)
+
+  }
+</script>

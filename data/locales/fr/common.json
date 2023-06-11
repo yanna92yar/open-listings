@@ -1,0 +1,238 @@
+{
+   "announcements": [
+      "{{app_name}} est en mode Démo. Vous pouvez absolument l'essayer ! Vos données sont en sécurité mais le service est toujours en développement actif"
+   ],
+   "doc": {
+      "markets": "<blockquote class='blockquote border p-2'>A market is a gift for charity, humanitarian aid, or to benefit a cause. A market may take various forms, including money, alms, services, or goods such as clothing, toys, food, or vehicles. A market may satisfy medical needs such as blood or organs for transplant.</blockquote><footer class='blockquote-footer'><cite title='Wikipedia'>[Wikipedia]</cite></footer><p>However in Listings, blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. .<p>",
+      "skills": "<blockquote class='blockquote border p-2'>A skill is the learned ability to perform an action with determined results with good execution often within a given amount of time, energy, or both. Skills can often be divided into domain-general and domain-specific skills. For example, in the domain of work, some general skills would include time management, teamwork and leadership, self-motivation and others, whereas domain-specific skills would be used only for a certain job.</blockquote><footer class='blockquote-footer'><cite title='Wikipedia'>[Wikipedia]</cite></footer>",
+      "blogs": "In this section, blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. ",
+      "careful": "Before enjoying Listings, You must accept user policy. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. vblablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. .",
+      "Login": "Because we value privacy, Listings blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. ",
+      "Validation": "Before you can see your post, an Administrator needs to validate its content, later it becomes visible. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. blablablablabla. .",
+      "about": "Listings is here to let anyone post on the internet, but <em>seriously</em> and for <em>free</em>. Like newspapers and magazines, Listings has these three main sections: <b>Donnations, Artworks and Blog posts.</b>"
+   },
+   "listings": {
+      "listings": {
+         "title": "Petites annonces - Toutes les rubriques",
+         "intro": "Petites annonces reprises sur le web. Ici, vous pouvez profiter gratuitement des annonces non commerciales.",
+         "success": "We got latest listings from all sections :)",
+         "error": ""
+      },
+      "markets": {
+         "title": "{{app_name}} - {{section}}",
+         "intro": "Partagez ou recherchez des objets d'occasion misent à côté. Donnez une seconde vie à vos vieux vêtements, meubles, appareils électroniques, etc.",
+         "success": "We got some of the latest markets :)",
+         "error": ""
+      },
+      "events": {
+         "title": "{{app_name}} - {{section}}",
+         "intro": "Faites un appel pour des rencontres culturelles ou de loisirs. Vous n'êtes plus déconnecté! Entrez en contact avec les organisateurs et socialisez plus facilement.",
+         "success": "We got some of the latest events :)",
+         "error": ""
+      },
+      "skills": {
+         "title": "{{app_name}} - {{section}}",
+         "intro": "Partager vos compétences et développez votre business. Vous pouvez également rejoindre d'autres personnes. Le partage de compétences est un moyen  avantageux d'acquérir des compétences professionnelles. Votre voiture spéciale est rayée ? Vous pouvez demander de l'aide!",
+         "success": "We got some of the latest skills :)",
+         "error": ""
+      },
+      "hobbies": {
+         "title": "{{app_name}} - {{section}}",
+         "intro": "Parlez librement de vos loisirs ou trouvez des amis avec des passe-temps similaires en en parlant.",
+         "success": "We got some hobbies :)",
+         "error": ""
+      },
+      "blogs": {
+         "title": "{{app_name}} - {{section}}",
+         "intro": "Passions créatives, loisirs et passe-temps! N'importe quel sujet pourrait tomber ici, alors n'hésitez pas à partager vos pensées.",
+         "success": "We got some blogs :)",
+         "error": ""
+      },
+      "gwoogl": {
+         "title": "{{app_name}} - Search results",
+         "intro": "Petites annonces reprises sur le web. Utilisez notre moteur de recherche pour trouver les meilleurs résultats même en différentes langues !",
+         "success": "We got some listings for your search :)",
+         "error": ""
+      },
+      "geolocation": {
+         "title": "{{app_name}} - Geolocated results",
+         "intro": "Petites annonces reprises sur le web. Utilisez la recherche géolocalisée pour trouver des annonces à proximité !",
+         "success": "We got some listings nearby :)",
+         "error": ""
+      },
+      "POST_ERR": {
+         "title": "{{app_name}} - Error",
+         "intro": "Petites annonces reprises sur le web. Malheureusement, votre nouvelle annonce n'a pas été publiée en raison d'une erreur. Veuillez réessayer.",
+         "success": "",
+         "error": ""
+      }
+   },
+   "index": {
+      "listings": {
+         "title": "{{app_name}} - Today's listings",
+         "intro": "Petites annonces reprises sur le web.",
+         "success": "",
+         "error": ""
+      },
+      "tags": {
+         "title": "{{app_name}} - Catégorie: {{subtitle}}",
+         "intro": "Petites annonces reprises sur le web.",
+         "success": "Nous avons quelques annonces de toutes les sections qui sont liées à cette catégorie :)",
+         "error": ""
+      },
+      "division": {
+         "title": "{{app_name}} - Département: {{subtitle}}",
+         "intro": "",
+         "success": "Nous avons quelques annonces de toutes les sections qui se situe dans ce département :)",
+         "error": ""
+      },
+      "keyword": {
+         "title": "{{app_name}} - Mot-clé: {{subtitle}}",
+         "intro": "",
+         "success": "Nous avons quelques annonces de toutes les sections pour ce mot clé :)",
+         "error": ""
+      }
+   },
+   "tags": {
+      "tags": {
+         "title": "",
+         "intro": "",
+         "success": "",
+         "error": ""
+      }
+   },
+   "listing": {
+      "id": {
+         "title": "{{app_name}} - {{section}}",
+         "success": "We got the listing :)",
+         "error": ""
+      },
+      "markets": {
+         "title": "{{app_name}} - {{section}}",
+         "success": "Merci d'avoir publié une nouvelle annonce. L'annonce sera visible après modération. Vous pouvez également désactiver l'annonce pendant un certain temps :)",
+         "error": "L'image sera chargée sous peu!"
+      },
+      "events": {
+         "title": "{{app_name}} - {{section}}",
+         "success": "Merci d'avoir publié une nouvelle annonce. L'annonce sera visible après modération. Vous pouvez également désactiver l'annonce pendant un certain temps :)",
+         "error": "L'image sera chargée sous peu!"
+      },
+      "skills": {
+         "title": "{{app_name}} - {{section}}",
+         "success": "Merci d'avoir publié une nouvelle annonce. L'annonce sera visible après modération. Vous pouvez également désactiver l'annonce pendant un certain temps :)",
+         "error": "L'image sera chargée sous peu!"
+      },
+      "hobbies": {
+         "title": "{{app_name}} - {{section}}",
+         "success": "Merci d'avoir publié une nouvelle annonce. L'annonce sera visible après modération. Vous pouvez également désactiver l'annonce pendant un certain temps :)",
+         "error": "L'image sera chargée sous peu!"
+      },
+      "blogs": {
+         "title": "{{app_name}} - {{section}}",
+         "success": "Merci d'avoir publié une nouvelle annonce. L'annonce sera visible après modération. Vous pouvez également désactiver l'annonce pendant un certain temps :)",
+         "error": ""
+      },
+      "contact": {
+         "title": "{{app_name}} - Contact",
+         "success": "E-mail envoyé avec succès à l'annonceur",
+         "error": ""
+      }
+   },
+   "message": {
+      "NOT_FOUND": {
+         "title": "{{app_name}} - Erreur",
+         "message": "Aucune annonce trouvée, L'annonce peut être désactivée ou pas encore approuvée :(",
+         "success": "",
+         "error": "Listing not found"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - Erreur",
+         "message": "Oups, une erreur interne s'est produite :( Veuillez réessayer"
+      },
+      "contact": {
+         "title": "",
+         "message": ""
+      },
+      "verification": {
+         "title": "{{app_name}} - inscription",
+         "message": "Vous devez maintenant vérifier votre inscription. Accédez simplement à votre boîte e-mail et cliquez sur le lien d'activation"
+      }
+   },
+   "signup": {
+      "signup": {
+         "title": "{{app_name}} - inscription"
+      },
+      "EMAIL_TAKEN": {
+         "title": "{{app_name}} - erreur d'inscription",
+         "error": "L'e-mail a été pris"
+      },
+      "BAD_EMAIL": {
+         "title": "{{app_name}} - signup error",
+         "error": "Merci d'utiliser votre Email personnel"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - erreur d'inscription",
+         "error": "Oups, une erreur interne s'est produite :( Veuillez réessayer"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - erreur d'inscription",
+         "error": "Veuillez vérifier les informations fournies"
+      }
+   },
+   "login": {
+      "login": {
+         "title": "{{app_name}} - authentification"
+      },
+      "INCORRECT_CREDENTIALS": {
+         "title": "{{app_name}} - erreur d'authentification",
+         "error": "Veuillez vérifier l'adresse e-mail et le mot de passe et réessayer"
+      },
+      "USER_UNVERIFIED": {
+         "title": "{{app_name}} - erreur d'authentification",
+         "error": "Veuillez vérifier votre e-mail pour activer votre compte"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - erreur d'authentification",
+         "error": "Oups, une erreur interne s'est produite :( Veuillez réessayer"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - signup error",
+         "error": "Veuillez vérifier les informations fournies"
+      }
+   },
+   "reset": {
+      "reset": {
+         "title": "{{app_name}} - reset"
+      },
+      "SERVER_ERROR": {
+         "title": "{{app_name}} - reset error",
+         "error": "Oops, an internal error occurred :( Please try again"
+      },
+      "VALIDATION_ERROR": {
+         "title": "{{app_name}} - reset error",
+         "error": "Please verify the provided information"
+      }
+   },
+   "mail": {
+      "bootstrap": "app instance bootstrapped correctly",
+      "signup": {
+         "subject": "Account Verification Token",
+         "text": "Hello,\n\nPlease verify your account by copying and entering this secret '{{token}}' in this page:\n{{host}}/confirmation",
+         "html": "Hello,\n\nPlease verify your account by copying and entering this secret <b>{{token}}</b> in this page:\n{{host}}/confirmation"
+      }
+   },
+   "blog": {
+      "intro": "In {{app_name}} blogs section is our meta category where you and us also can express ourselves freely from tags. Anything can be posted here, including our daily announcements."
+   },
+   "confirmation": {
+      "confirmation": {
+         "title": "{{app_name}} - confirmation",
+         "error": "wow wow wow"
+      }
+   },
+   "generic": {
+      "error": {
+         "server": "Le serveur a du mal à satisfaire la requête. Veuillez réessayer"
+      }
+   }
+}

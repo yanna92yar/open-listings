@@ -1,0 +1,18 @@
+@import './custom_markets.scss';
+// @import "~bootstrap/scss/bootstrap";
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+// @import '~pell/src/pell';
+// @import '~@yaireo/tagify/src/tagify';
+// @import '~@tarekraafat/autocomplete.js/dist/css/autoComplete.02';
+// @import '~notyf/notyf.min';
+// @import '~leaflet/dist/leaflet';
+// @import '~leaflet.markercluster/dist/MarkerCluster';
+// @import '~leaflet.markercluster/dist/MarkerCluster.Default';
+// @import '~leaflet-geosearch/assets/css/leaflet';
+// @import '~tippy.js/dist/tippy';
+@import './style';
+
+.card.markets,
+li.markets {
+    background-color: #bd591220;
+}

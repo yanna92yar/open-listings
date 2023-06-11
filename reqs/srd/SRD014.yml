@@ -1,0 +1,12 @@
+active: true
+derived: false
+header: |
+  "Blogs" section page
+level: 1.8
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  "Blogs" section page is meant to give a broader space of expression to all users. Anything that does not fall in other sections can be added as a blog listing.
+  Admins, moderators and other people involved directly with the website publish solely under this section.

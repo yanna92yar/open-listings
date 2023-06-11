@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Search-geolocation
+level: 2.2
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  Search based on geolocation is simple. User pinpoints the marker on the map, results under a section (if on a listings section page) or all (if on index or listings page), then results are returned based on a user defined (or a default) radius.

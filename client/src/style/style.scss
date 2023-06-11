@@ -1,0 +1,550 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import '~pell/src/pell';
+@import '~@yaireo/tagify/src/tagify';
+@import '~@tarekraafat/autocomplete.js/dist/css/autoComplete.02';
+@import '~notyf/notyf.min';
+@import '~leaflet/dist/leaflet';
+@import '~leaflet.markercluster/dist/MarkerCluster';
+@import '~leaflet.markercluster/dist/MarkerCluster.Default';
+@import '~leaflet-geosearch/assets/css/leaflet';
+@import '~tippy.js/dist/tippy';
+
+:root {
+    --map-tiles-filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);
+}
+
+@media (prefers-color-scheme: dark) {
+    .tiles-colors {
+        filter: var(--map-tiles-filter, none);
+    }
+}
+
+.autoComplete_wrapper > input {
+    border: 1px solid #bbb;
+}
+
+.controls {
+    padding-bottom: 2rem;
+}
+
+#footer_ads {
+    /* sets Ad size */
+    height: 600px;
+    width: 300px;
+}
+
+#footer_ads img {
+    /* set img elements to be responsive */
+    height: 100%;
+    width: 100%;
+}
+
+.ca-listing {}
+
+.ca-listings .ca-listing {
+    cursor: pointer;
+    right: 0;
+    top: 0;
+    position: absolute;
+}
+
+.ca-listings .ca-listing:hover:after,
+.ca-listings .ca-listing.favorites:after {
+    content: ' \2605';
+    color: rgb(255, 203, 0);
+}
+
+.ca-listings .ca-listing.favorites:hover:after {
+    content: ' \2606';
+}
+
+label {
+    padding-top: 1% !important;
+}
+
+code {
+    opacity: 75%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+blockquote {
+    font-family: News Cycle, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+pre {
+    font-family: News Cycle, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5667px;
+}
+
+.navbar {
+    margin-bottom: 3rem;
+}
+
+.bi {
+    width: 1rem;
+    height: 1rem;
+}
+
+@media (min-width: 768px) {
+    .bd-subnavbar {
+        position: -webkit-sticky;
+        position: sticky !important;
+        top: 0;
+    }
+}
+
+// TODO: edit dark mode of this
+.bd-subnavbar {
+    position: relative;
+    z-index: 50;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.card {
+    // border-style: dashed;
+    // border-width: thin;
+    // border-color: #a19f9a50;
+    background-color: #f5eabf28;
+}
+
+.card.nonapproved {
+    border-width: thick;
+}
+
+.card.deactivated {
+    background-image: repeating-conic-gradient(rgba(0, 0, 0, 0.03) 0% 25%, rgba(255, 255, 255, 0.03) 0% 50%);
+    background-position: 0 0, 14px 14px;
+    background-size: 28px 28px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.8;
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        opacity: 0.8;
+    }
+}
+
+.blink {
+    animation: blink 1s step-start 0s 3;
+    -webkit-animation: blink 1s step-start 0s 3;
+}
+
+.card.markets,
+li.markets {
+    background-color: #bd591220;
+}
+
+.card.events,
+li.events {
+    background-color: #934fe920;
+}
+
+.card.skills,
+li.skills {
+    background-color: #ec496f20;
+}
+
+.card.hobbies,
+li.hobbies {
+    background-color: #b2bd1220;
+}
+
+li.false {
+    text-decoration: underline;
+}
+
+li.external {
+    border: #333;
+}
+
+.card.crosslang {
+    background-color: rgba(1, 201, 44, 0.329);
+}
+
+img.placeholder {
+    opacity: 0.6;
+}
+
+.modal-backdrop {
+    z-index: 20;
+}
+
+#characters-left {
+    font-family: Lucida Console, serif;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.pell-content {
+    background-color: #309ae641;
+}
+
+.pell-button {
+    color: #333 !important;
+}
+
+/* font picker */
+
+.dropdown-button,
+.font-list-item {
+    color: black !important;
+}
+
+#listing-map {
+    height: 400px;
+    z-index: 99;
+}
+
+#delimitations-map {
+    height: 400px;
+    z-index: 99;
+}
+
+#geo-search-map {
+    height: 400px;
+    z-index: 99;
+}
+
+#listings-map {
+    height: 400px;
+    z-index: 99;
+}
+
+#game-map {
+    height: 400px;
+    z-index: 99;
+}
+
+/* Style the Image Used to Trigger the Modal */
+
+#listingImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#listingImg:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 9999;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+/* The Close Button */
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.loading-text {
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    visibility: hidden;
+}
+
+/* Image miniatures grid */
+.img-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+}
+
+.img-radio {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.center {
+    text-align: center;
+    margin: 2rem;
+    width: 100%;
+    border: 0.1rem dotted green;
+    padding: 1rem;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Ruda:900');
+
+// Forms, detail & summaries should be emphasized to users eyes
+details form {
+    padding: 0.5em 0.5em 0;
+    margin-top: 1rem;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    // opacity: 0.6;
+    // background-image: url(/images/symphony.png);
+    // background-position: bottom;
+    // animation: 15s linear 0s infinite bp;
+}
+
+// @keyframes bp {
+//     from {
+//         background-position: 198px 0;
+//     }
+//     to {
+//         background-position: 0 198px;
+//     }
+// }
+details {
+    margin: 2rem auto;
+    box-shadow: 0 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+summary {
+    padding: 1rem;
+    display: block;
+    background: hsla(0, 0%, 20%, 0.5);
+    padding-left: 2.2rem;
+    position: relative;
+    cursor: pointer;
+}
+
+summary:before {
+    content: '';
+    border-width: 0.4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: 0.2rem 50%;
+    transition: 0.25s transform ease;
+}
+
+/* THE MAGIC 🧙‍♀️ */
+details[open]>summary:before {
+    transform: rotate(90deg);
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+$details_colors: (#cb997e50, #ddbea950, #ffe8d650, #b7b7a450, #a5a58d50);
+
+$forms_colors: (#8e9aaf50, #cbc0d350, #efd3d750, #feeafa50, #dee2ff50);
+
+$bootstrap_mapping: (Indigo, Purple, Pink, Teal, Cyan);
+
+.announcement {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background: black;
+    color: white;
+    font-family: Arial, sans, serif;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    font-size: 0.8em;
+}
+
+.announcement a {
+    color: #ccc;
+}
+
+.announcement a:hover {
+    color: red;
+}
+
+.announcement p {
+    margin-top: revert;
+}
+
+.flag {
+    width: 1.5rem;
+}
+
+.subscribe {
+    --tag-bg: #0052bf;
+    --tag-hover: #ce0078;
+    --tag-text-color: #fff;
+    --tags-border-color: silver;
+    --tag-border-radius: 25px;
+    --tag-text-color--edit: #111;
+    --tag-remove-bg: var(--tag-hover);
+    --tag-pad: 0.6em 1em;
+    --tag-inset-shadow-size: 1.35em;
+    --tag-remove-btn-bg--hover: black;
+
+    display: inline-block;
+    min-width: 0;
+    border: none;
+}
+
+.subscribe .tagify__tag {
+    margin-top: 0;
+}
+
+/* Do not show the "remove tag" (x) button when only a single tag remains */
+.subscribe .tagify__tag:only-of-type .tagify__tag__removeBtn {
+    display: none;
+}
+
+.subscribe .tagify__tag__removeBtn {
+    opacity: 0;
+    transform: translateX(-6px) scale(0.5);
+    margin-left: -3ch;
+    transition: 0.12s;
+}
+
+.subscribe .tagify__tag:hover .tagify__tag__removeBtn {
+    transform: none;
+    opacity: 1;
+    margin-left: -1ch;
+}
+
+.subscribe+button {
+    color: #0052bf;
+    font: bold 1.4em/1.65 Arial;
+    border: 0;
+    background: none;
+    box-shadow: 0 0 0 2px inset currentColor;
+    border-radius: 50%;
+    width: 1.65em;
+    height: 1.65em;
+    cursor: pointer;
+    outline: none;
+    transition: 0.1s ease-out;
+    margin: 0 0 0 5px;
+    vertical-align: top;
+}
+
+.subscribe+button:hover {
+    box-shadow: 0 0 0 5px inset currentColor;
+}
+
+.subscribe .tagify__input {
+    display: none;
+}

@@ -1,0 +1,8 @@
+<% if(typeof section === 'undefined' && typeof context !== 'undefined' && context === 'alllistings'){ %>
+<%~ includeFile('../partials/sections/big_listings_parser', it); %>
+<% } else if (typeof context !== 'undefined' && context === 'index') { %>
+<%~ includeFile('../partials/sections/listings_parser_simple', it); %>
+<% } else { %>
+<% /* context === 'geolocation' || context === 'gwoogl' ... */ %>
+<%~ includeFile('../partials/sections/listings_parser_boosted', it); %>
+<% } %>

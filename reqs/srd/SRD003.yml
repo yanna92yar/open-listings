@@ -1,0 +1,14 @@
+active: true
+derived: false
+header: |
+  Listings page
+level: 1.2
+links:
+- SRD007: null
+normative: true
+ref: ''
+reviewed: null
+text: |
+  Listings page is similar to home page but it exhibits the different sections in one page. It guides a user to quickly choose a section after introducing each one with one sentence and a small how-to if needed.
+
+  It clearly shows how to get quickly to a different section so that user can move on quickly to his/her sought information.

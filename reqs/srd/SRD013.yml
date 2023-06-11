@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  "Skills" section page
+level: 1.7
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  "Skills" section page is meant either for recruitment, or self-promotion. Similarly to "Markets" page, a user can seek or offer a "skill".

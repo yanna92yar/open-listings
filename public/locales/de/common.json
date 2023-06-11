@@ -1,0 +1,62 @@
+{
+    "(markets)": "Spenden",
+    "(events)": "Sitzungten",
+    "(skills)": "Fähigkeiten",
+    "(hobbies)": "Hobbis",
+    "(blogs)": "Beiträge",
+    "(howto)": "wie",
+    "(tags)": "Stichworte",
+    "(contact)": "Kontakt",
+    "(policy)": "Richtlinien",
+    "(login)": "login",
+    "(signup)": "Anmelden",
+    "(password)": "Passwort",
+    "(reset)": "von Neu",
+    "(reset-pass)": "Neues Passwort",
+    "|date|": "irgendwo auf der Welt",
+    "(search)": "Suche",
+    "(exactsearch)": "genaue Suche",
+    "(exact?)": "Genau?",
+    "(sincedate)": "Seit",
+    "(fuzzysearch)": "ungefähre Suche",
+    "(description)": "Beschreibung",
+    "(title)": "Titer",
+    "(title|description)": "Titel oder Beschreibung",
+    "(divisions)": "Abteilungen",
+    "(today-listings)": "heutige Liste",
+    "(tour-hello)": "Probelauf",
+    "(posted-by)": "hochgeladen von:",
+    "geo": {
+        "(search)": "Standort Suche"
+    },
+    "blog-page": {
+        "add": "Füge einen Post hinzu"
+    },
+    "market-page": {
+        "add": "Füge einen Spendenbetrag hinzu",
+        "(offer)": "Angebot?"
+    },
+    "event-page": {
+        "add": "Fügen Sie einen Post zum Ereignis hinzu",
+        "start-date": "Startdatum",
+        "end-date": "Enddatum"
+    },
+    "skill-page": {
+        "add": "Füge eine Fähigkeit hinzu",
+        "(offer)": "Angebot?"
+    },
+    "tag-language": "Wähle eine Sprache ",
+    "choose-tags": "Klicken Sie hier, um einen Tag zu wählen",
+    "listings-map": "Auflistungs Karte",
+    "(english)": "Englisch",
+    "(arabic)": "Arabisch",
+    "(today)": "Die Heutigen",
+    "(french)": "Französisch",
+    "(categories)": "Kategorien",
+    "(about)": "über",
+    "(buy)": "Kaufen Sie eine Bereitstellung !",
+    "hobby-page": {
+        "add": "Füge ein Hobby hinzu"
+    },
+    "delimitations-map": "Abgrenzungskarte"
+}

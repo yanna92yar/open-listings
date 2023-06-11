@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Components
+level: 2.0
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  Components are HTML inputs that go together to fulfill some functionality. Normally there is only one component per task across pages and user sessions; ie. no two components of two versions diplayed for two users or so. If one component rely on some front-end library and there is a complete technical evolution, it is the same last component which will be displayed for the latest version

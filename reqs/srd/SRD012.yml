@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  "Hobbies" section page
+level: 1.6
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  "Hobbies" section page is similar to "Events" page but with no time attached to it. Users are free to talk and share their passtimes. A user can convert a "hobby" page to an "Event" page ?

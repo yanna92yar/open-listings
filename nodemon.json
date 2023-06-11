@@ -1,0 +1,13 @@
+{
+    "verbose": true,
+    "delay": "2000",
+    "ext": "js",
+    "watch": [
+        "libs/",
+        "app.js",
+        "server.js",
+        "utils.js",
+        "config/**/*.js",
+        ".env"
+    ]
+}

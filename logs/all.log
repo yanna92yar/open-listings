@@ -1,0 +1,71 @@
+-n  
+{"level":30,"time":1686153464192,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"Metrics accessible from: /sthtwnXLob/metrics"}
+{"level":30,"time":1686153464194,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"The app is accessible on port: 3003"}
+{"level":30,"time":1686153464318,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"Server listening at http://0.0.0.0:3003"}
+{"level":30,"time":1686153464346,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"READY"}
+{"level":30,"time":1686153464346,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"Checking environment data once"}
+{"level":30,"time":1686153465623,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-1","req":{"method":"POST","url":"/signup","remotePort":49835,"ingest":"fluentd"},"msg":"incoming request"}
+{"level":30,"time":1686153465647,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"#### getUserById"}
+{"level":30,"time":1686153465648,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-2","req":{"method":"POST","url":"/signup","remotePort":49836,"ingest":"fluentd"},"msg":"incoming request"}
+{"level":30,"time":1686153465653,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"#### getUserById"}
+{"level":50,"time":1686153465678,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-1","msg":"blabla/localize/flash: Session not found"}
+{"level":30,"time":1686153465687,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-1","res":{"statusCode":200},"responseTime":63.42979999999807,"msg":"request completed"}
+{"level":50,"time":1686153465689,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-2","msg":"blabla/localize/flash: Session not found"}
+{"level":30,"time":1686153465689,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-2","res":{"statusCode":200},"responseTime":41.511799999992945,"msg":"request completed"}
+{"level":30,"time":1686153478035,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-3","req":{"method":"GET","url":"/","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0","remotePort":49923,"ingest":"fluentd"},"msg":"incoming request"}
+{"level":30,"time":1686153478038,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"#### getListingsSince"}
+{"level":30,"time":1686153478077,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"#### topBy"}
+{"level":30,"time":1686153478104,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-3","res":{"statusCode":200},"responseTime":68.72860000000219,"msg":"request completed"}
+{"level":30,"time":1686153478136,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-4","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153478149,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-5","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153478151,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-6","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153478156,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-4","res":{"statusCode":200},"responseTime":19.661800000001676,"msg":"request completed"}
+{"level":30,"time":1686153478158,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-5","res":{"statusCode":304},"responseTime":9.673100000014529,"msg":"request completed"}
+{"level":30,"time":1686153478172,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-6","res":{"statusCode":200},"responseTime":21.329100000002654,"msg":"request completed"}
+{"level":30,"time":1686153480011,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-7","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153480013,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-7","res":{"statusCode":304},"responseTime":2.5437000000092667,"msg":"request completed"}
+{"level":30,"time":1686153480014,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-8","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153480021,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-8","res":{"statusCode":200},"responseTime":6.476800000004005,"msg":"request completed"}
+{"level":30,"time":1686153480129,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-9","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153480132,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-9","res":{"statusCode":304},"responseTime":2.2054000000061933,"msg":"request completed"}
+{"level":30,"time":1686153480167,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-a","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153480172,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-a","res":{"statusCode":200},"responseTime":4.15470000001369,"msg":"request completed"}
+{"level":30,"time":1686153484021,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-b","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153484032,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-b","res":{"statusCode":200},"responseTime":11.324200000002747,"msg":"request completed"}
+{"level":30,"time":1686153499808,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-c","req":{"method":"GET","url":"/","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0","remotePort":49985,"ingest":"fluentd"},"msg":"incoming request"}
+{"level":30,"time":1686153499809,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"#### getListingsSince"}
+{"level":30,"time":1686153499828,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"#### topBy"}
+{"level":30,"time":1686153499832,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-c","res":{"statusCode":200},"responseTime":23.611599999974715,"msg":"request completed"}
+{"level":30,"time":1686153499857,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-d","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153499859,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-d","res":{"statusCode":304},"responseTime":2.541800000006333,"msg":"request completed"}
+{"level":30,"time":1686153499866,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-e","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153499868,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-e","res":{"statusCode":304},"responseTime":1.9624999999941792,"msg":"request completed"}
+{"level":30,"time":1686153499931,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-f","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153499934,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-f","res":{"statusCode":304},"responseTime":2.5817000000097323,"msg":"request completed"}
+{"level":30,"time":1686153500096,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-g","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153500099,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-h","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153500102,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-g","res":{"statusCode":304},"responseTime":5.717700000008335,"msg":"request completed"}
+{"level":30,"time":1686153500103,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-h","res":{"statusCode":304},"responseTime":4.2973000000056345,"msg":"request completed"}
+{"level":30,"time":1686153500194,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-i","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153500196,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-i","res":{"statusCode":304},"responseTime":1.7472000000125263,"msg":"request completed"}
+{"level":30,"time":1686153500198,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-j","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153500200,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-j","res":{"statusCode":304},"responseTime":1.6696999999985565,"msg":"request completed"}
+{"level":30,"time":1686153543357,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-k","req":{"method":"GET","url":"/division/Ni%C3%A8vre","useragent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0","remotePort":50002,"ingest":"fluentd"},"msg":"incoming request"}
+{"level":30,"time":1686153543359,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"#### getListingsByDivision"}
+{"level":30,"time":1686153543364,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-k","res":{"statusCode":200},"responseTime":7.198400000022957,"msg":"request completed"}
+{"level":30,"time":1686153543408,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-l","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153543411,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-l","res":{"statusCode":304},"responseTime":2.579599999997299,"msg":"request completed"}
+{"level":30,"time":1686153543412,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-m","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153543414,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-m","res":{"statusCode":304},"responseTime":2.098199999978533,"msg":"request completed"}
+{"level":30,"time":1686153543577,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-n","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153543579,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-n","res":{"statusCode":304},"responseTime":2.6393000000098255,"msg":"request completed"}
+{"level":30,"time":1686153543585,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-o","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153543587,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-o","res":{"statusCode":304},"responseTime":2.716899999999441,"msg":"request completed"}
+{"level":30,"time":1686153543588,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-p","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153543590,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-p","res":{"statusCode":304},"responseTime":2.2611000000033528,"msg":"request completed"}
+{"level":30,"time":1686153543649,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-q","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153543651,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-q","res":{"statusCode":304},"responseTime":1.5982999999832828,"msg":"request completed"}
+{"level":30,"time":1686153543665,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-r","req":false,"msg":"incoming request"}
+{"level":30,"time":1686153543667,"pid":7468,"hostname":"WIN-E91D14FS6F4","reqId":"req-r","res":{"statusCode":304},"responseTime":1.5702000000164844,"msg":"request completed"}
+{"level":30,"time":1686153723461,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"Server is shutting down"}
+{"level":30,"time":1686153724462,"pid":7468,"hostname":"WIN-E91D14FS6F4","msg":"Server is down because of SIGINT"}

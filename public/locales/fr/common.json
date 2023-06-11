@@ -1,0 +1,63 @@
+{
+   "(today)": "Nouveautés",
+   "(categories)": "Sections",
+   "(markets)": "Dons",
+   "(events)": "Rencontres",
+   "(skills)": "Compétences",
+   "(hobbies)": "Loisirs",
+   "(blogs)": "Blogs",
+   "(buy)": "Acheter un déploiement !",
+   "(about)": "A propos",
+   "(howto)": "Comment",
+   "(tags)": "Mots clés",
+   "(contact)": "Contact",
+   "(policy)": "Conditions",
+   "(login)": "Connexion rapide 🔒",
+   "|date|": "Quelque part dans le globe -",
+   "(search)": "Recherche",
+   "(exactsearch)": "Recherche exacte",
+   "(exact?)": "Exact?",
+   "(sincedate)": "Depuis",
+   "(fuzzysearch)": "Recherche approximative",
+   "(description)": "Description",
+   "(title)": "Titre",
+   "(title|description)": "Titre ou description",
+   "(divisions)": "Wilaya",
+   "(today-listings)": "Annonces d\"aujourd\"hui",
+   "(tour-hello)": "On test tour.js",
+   "(posted-by)": "Publié par:",
+   "blogs-intro": "La section des blogs est notre méta-catégorie où vous et nous meme pouvons s'exprimer librement à partir de balises. Tout peut être publié ici, y compris nos annonces quotidiennes.",
+   "tags-page": {
+     "intro": "Ici, vous pouvez choisir une balise spécifique pour la section des dons. Veuillez prendre votre temps pour choisir la meilleure étiquette qui convient à votre article."
+   },
+   "geo": {
+    "(search)": "Recherche géolocalisée"
+    },
+   "blog-page": {
+     "add": "Ajouter un article Blog"
+   },
+   "market-page": {
+     "add": "Ajouter une publication Don",
+     "(offer)": "Offre ?"
+   },
+   "event-page": {
+     "add": "Ajouter une publication Evénement",
+     "start-date": "Date de début",
+     "end-date": "Date de fin"
+   },
+   "hobby-page": {
+     "add": "Ajouter une publication Loisir"
+   },
+   "skill-page": {
+     "add": "Ajouter une publication Compétence",
+     "(offer)": "Offre ?"
+   },
+   "tag-language": "Langue des balises: ",
+   "choose-tags": "Cliquez ici pour choisir les balises",
+   "delimitations-map": "carte des délimitations",
+   "listings-map": "carte des annonces",
+   "(english)": "Anglais",
+   "(arabic)": "Arabe",
+   "(french)": "Français"
+ 
+ }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>admin</title>
+  <!-- <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon"> -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://cdn.zinggrid.com/zinggrid.min.js" defer></script>
+  <style>
+    /* 
+       While ZingGrid is loading display a height to prevent screen jank.
+       This [loading] attribute is native to the library and will be added
+       regardless of whether you define it or not
+      */
+    zing-grid[loading] {
+      height: 500px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Administration</h1>
+  <h2>Listings approval</h2>
+
+  <zing-grid caption="Unapproved Listings" layout-controls=true pager page-size="10" page-size-options="10,20,100"
+    editor editor-controls>
+    <zg-data>
+      <zg-param name="src" value="/admin/"></zg-param>
+      <zg-param name="idKey" value="_id"></zg-param>
+    </zg-data>
+    <zg-colgroup>
+      <zg-column index="img" type="image" header="Image"></zg-column>
+      <zg-column index="title" header="Title"></zg-column>
+      <zg-column index="tags" header="Tags"></zg-column>
+      <zg-column index="desc" header="Description"></zg-column>
+      <zg-column index="section" header="Section"></zg-column>
+      <zg-column index="usr" header="User"></zg-column>
+      <zg-column index="a" type="boolean" header="Approved"></zg-column>
+      <zg-column index="d" type="boolean" header="Deactivated"></zg-column>
+
+    </zg-colgroup>
+  </zing-grid>
+  <!-- <zing-grid caption="Unapproved Listings" pager page-size="10" page-size-options="10,20,100" layout-controls=true src="/admin/" editor editor-controls></zing-grid> -->
+
+  <h2>Announcements</h2>
+  <form action="/admin/announce" method="POST">
+    <input name="title_en" value="english" placeholder="english">
+    <input name="title_fr" value="french" placeholder="french">
+    <textarea name="english" cols=40 rows=4>I urge you to see this.</textarea>
+    <textarea name="french" cols=40 rows=4>I urge you to see this.</textarea>
+    <input type="submit" value="Publish">
+  </form>
+
+</body>
+
+</html>

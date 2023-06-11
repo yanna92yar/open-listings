@@ -1,0 +1,18 @@
+active: true
+derived: false
+header: |
+  Home page
+level: 1.1
+links:
+- SRD007: null
+normative: true
+ref: ''
+reviewed: null
+text: |
+  Home page is a listings page that is somehow special. It shall expose all or most inputs like subscription and login, search by text, search by geolocation, post a new listing, etc. A lot of fresh data is already presented, not like a minimal commercial one page.
+
+  Even if charged (or supercharged), It shall favor the most valuable content to the user. Valuable content is like:
+  - Popular listings
+  - New listings
+
+  If user is logged in, valuable content is more narrowed to user's interesets like favorite sections, favorite listings, subscribed to topics etc.

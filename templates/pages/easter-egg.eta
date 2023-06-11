@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>fennec-fox-p</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='/stylesheets/unversioned/eastereggs/<%= style %>'>
+</head>
+
+<body>
+  <div class="wrapper">
+    <h2 class="title">fennec-fox-p-0</h2>
+    <%= svg %>
+    <div class="controls">
+      <button type="button" class="btn-draw">draw</button>
+      <button type="button" class="btn-erase">erase</button>
+    </div>
+  </div>
+</body>
+<script src='/javascripts/easteregg/easteregg.js'></script>
+
+</html>

@@ -1,0 +1,13 @@
+active: true
+derived: false
+header: |
+  "Events" section page
+level: 1.5
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  "Events" section page is meant for timed events either punctual or recuring (for aged users; see "badge-system" serde).
+
+  One event has a one start date, or a range (start to end). One event can be recurring.

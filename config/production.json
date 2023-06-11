@@ -1,0 +1,32 @@
+{
+    "NODE_PORT": 3003,
+    "PIPELINE_KEYWORDS_SECONDS": 86400,
+    "MONGODB_URI": "mongodb://127.0.0.1:27017/{dbName}",
+    "REDIS_HOST": "127.0.0.1",
+    "APIHost": "https://MYMARVELOUSDOMAIN.XX/",
+    "COOKIE_NAME": "open-listings-login",
+    "SMTP": {
+       "host": "smtp.sendgrid.net",
+       "from": "{ADMIN_EMAIL}",
+       "port": 587,
+       "secure": false,
+       "auth": {
+          "user": "apikey",
+          "pass": "{SENDGRID_API_KEY}"
+       }
+    },
+    "": "// careful, this should never change ! This is how data is indexed forever",
+   "TAG_HARD_SIZE_LIMIT": 60,
+   "TAG_MAX_SIZE_LIMIT_TO_IGNORE": "100",
+    "TYPESENSE":{
+      "nodes": [
+          {
+              "host": "0.0.0.0",
+              "port": 8108,
+              "protocol": "http"
+          }
+      ],
+      "apiKey": "{TYPESENSE_API_KEY}",
+      "connectionTimeoutSeconds": 2
+  }
+ }

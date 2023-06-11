@@ -1,0 +1,7 @@
+<% if(typeof components !== 'undefined' && typeof components.tags !== 'undefined'){ %>
+<nav class="nav d-flex justify-content-between">
+    <% for (var i = 0; components.tags.length> 0 && i < components.tags.length && i < 15 ; i++) { %>
+        <a href="/division/<%=encodeURIComponent(components.tags[i].tag) %>" class="p-2 link-secondary"><%=components.tags[i].tag %></a>
+    <% }%>
+</nav>
+<% }%>

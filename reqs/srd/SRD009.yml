@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Subscribe-to-tag
+level: 2.3
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  Logged-in user can subscribe to one or multiple tags.

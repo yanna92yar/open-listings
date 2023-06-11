@@ -1,0 +1,52 @@
+<div id="footer_ads"></div>
+
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+  <div class="row justify-content-between">
+    <div class="col-12 col-lg d-flex w-100 w-lg-25" style="width:fit-content">
+      <div class="mx-auto mx-lg-0">
+        <img class="mb-2" src="/images/open-listings-fr-logo.svg" alt="" height="80" width="80">
+        <a href="#" target="_blank" rel="noreferrer noopener"><small class="d-block mb-3 text-muted">©
+            2021–2023 </small></a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-3 d-flex flex-wrap align-content-start justify-content-center justify-content-sm-start">
+      <div class="w-100 border-top d-sm-none"></div>
+      <div class="w-100 d-flex justify-content-center justify-content-sm-start">
+        <div style="width:fit-content">
+          <h5 class="w-auto mb-0 py-2 sm:mb-2">Features</h5>
+        </div>
+      </div>
+      <ul class="list-unstyled" style="padding-right:0!important">
+        <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="#top">🔝 Back to top</a></li>
+        <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="https://github.com/yanna92yar/open-listings">🐛 Report an
+            issue</a></li>
+        <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="https://github.com/yanna92yar/" target="_blank" rel="noreferrer noopener">Made by yanna92yar</a></li>
+        <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="/static/third_parties.html">Third parties 💚</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-4 col-md-3 d-flex flex-wrap align-content-start justify-content-center justify-content-sm-start">
+      <div class="w-100 border-top d-sm-none"></div>
+      <div class="w-100 d-flex justify-content-center justify-content-sm-start">
+        <div style="width:fit-content;">
+          <h5 class="border-top w-auto mb-0 py-2 sm:mb-2 border-top-0">Data</h5>
+        </div>
+      </div>
+      <ul class="list-unstyled" style="padding-right:0!important">
+        <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="#">#########</a></li>
+        <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="/announcements">Notifications</a></li>
+      </ul>
+    </div>
+    <div class="col-sm-3 col-md-2 d-flex flex-wrap align-content-start justify-content-center justify-content-sm-start">
+      <div class="w-100 border-top d-sm-none"></div>
+      <div class="w-100 d-flex justify-content-center justify-content-sm-start">
+        <div style="width:fit-content">
+          <h5 class="border-top w-auto mb-0 py-2 sm:mb-2 border-top-0">#########</h5>
+        </div>
+      </div>
+      <ul class="list-unstyled" style="padding-right:0!important">
+        <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="#">#########</a></li>
+        <li class="w-auto mb-1 d-flex justify-content-center justify-content-sm-start"><a class="link-secondary text-decoration-none" href="#">#########</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>

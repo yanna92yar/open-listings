@@ -1,0 +1,21 @@
+active: true
+derived: false
+header: |
+  "Market" section page
+level: 1.4
+links:
+- SRD007: null
+normative: true
+ref: ''
+reviewed: null
+text: |
+  "Market" section page is meant either for buy/sell (propose/seek) stuff, or donations (for free: no exchanged service). This should be labeled accordingly (either with price, or an offer).
+
+  Users can "seek" some item, another user would respond with a custom message before opening chat channel. (check messaging system serde).
+
+  "Market" section has the following components related to "Markets" listings: geolocation search, postings a "Market" listing with a geolocation and custom tags.
+
+  - Geolocation is mandatory (see "geolocation" serde)
+  - Offer or seeking is mandatory
+  - Price is mandatory for "offers"
+  - One tag is mandatory (see "tags" serde)

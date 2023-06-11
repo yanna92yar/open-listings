@@ -1,0 +1,53 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": ["source.organizeImports", "source.fixAll"],
+    "emmet.includeLanguages": {
+        "eta": "html"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "j69.ejs-eta-beautify"
+    },
+    "i18n-ally.localesPaths": ["data/locales", "public/locales", "client/src/shared/i18n"],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.sourceLanguage": "en",
+    "[eta]": {
+        "editor.defaultFormatter": "besthyhy.ejs-eta-beautify"
+    },
+    "cSpell.words": ["gwoogl"],
+
+    // The 3 most important one:
+    // Enable semantic checking of JavaScript files.
+    // Existing jsconfig.json or tsconfig.json files override this setting.
+    "js/ts.implicitProjectConfig.checkJs": true,
+    // Enable suggestion to complete JSDoc comments.
+    "javascript.suggest.completeJSDocs": true,
+    // Preferred path ending with extension (good for ESM & cjs).
+    "javascript.preferences.importModuleSpecifierEnding": "js",
+
+    // Other suggestions useful stuff:
+    // Complete functions with their parameter signature.
+    "javascript.suggest.completeFunctionCalls": true,
+    // Enable auto import suggestions.
+    "javascript.suggest.autoImports": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "michelemelluso.code-beautifier"
+    },
+    "redisXplorer.config": {
+        "profiles": [
+            {
+                "name": "WinServ",
+                "host": "127.0.0.1",
+                "accessKey": "",
+                "filter": "*",
+                "port": "6379"
+            }
+        ],
+        "scanLimit": 200
+    }
+}

@@ -1,0 +1,16 @@
+active: true
+derived: false
+header: |
+  Search-text
+level: 2.1
+links:
+- SRD006: null
+normative: true
+ref: ''
+reviewed: null
+text: |
+  Search either the whole listings or by section. There is no way to search explicitly by section, user just need to be on a section listings page. Search looks for similar terms in titles, description and tags of listings.
+
+  Search shows only non "deactivated" and "approved" listings.
+
+  Search can be multi-lingual in case user keywords were in any language and that results with that language are empty. Results should be labeled "multi-lingual search" to remove confusion.
