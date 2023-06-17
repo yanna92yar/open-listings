@@ -23,16 +23,23 @@
 You can simply target a geolocation, having a delimited map either only the border or with its states or regions. We support geojson files just like the following examples:  
 <br>
 <script src="https://embedhub.com/view/geojson/yanna92yar/open-listings-data/main/states.fr.min.json"></script>
-<br>
+<hr><br>
 <script src="https://embedhub.com/view/geojson/yanna92yar/open-listings-data/main/geojson_nation_US.geojson"></script>
-<br>
+<hr><br>
 <script src="https://embedhub.com/view/geojson/yanna92yar/open-listings-data/main/italy-provinces-Ramer–Douglas–Peucker.json"></script>
-
+<br><br>
 ## Multi-languages
 
 Open-listings support multiple languages not only for the user interface, but through the whole user experience. Something like Quora, but can be more implicit providing an easier navigation either for publishers or viewers.
 
 A new listing will be analysed by an "machine learning" engine; It is offline and part of Open-listings saving the best performance. The same happens when a viewer searches for listings, we provide a cross-language findings.
+
+## User interface
+
+Homepage             |  Listing page             |  Admin dashboard
+:-------------------------:|:-------------------------:|:-------------------------:
+![](./Screenshot%20homepage.png)  |  ![](./Screenshot%20-%20section%20-%20listing.png)  |  ![](./Screenshot%20admin.png)
+
 
 ## Front-end libraries
 Open-listings UI relies heavily on third parties. The following open source solutions have these traits in common: they are bright, lightweight, well maintained and popular. they are simply the best I could find. So big thanks to their creators.      
