@@ -22,12 +22,12 @@
 
 You can simply target a geolocation, having a delimited map either only the border or with its states or regions. We support geojson files just like the following examples:  
 <br>
-<script src="https://embedhub.com/view/geojson/yanna92yar/open-listings-data/main/states.fr.min.json"></script>
-<hr><br>
-<script src="https://embedhub.com/view/geojson/yanna92yar/open-listings-data/main/geojson_nation_US.geojson"></script>
-<hr><br>
-<script src="https://embedhub.com/view/geojson/yanna92yar/open-listings-data/main/italy-provinces-Ramer–Douglas–Peucker.json"></script>
-<br><br>
+<script src="https://embed.github.com/view/geojson/yanna92yar/open-listings-data/main/states.fr.min.json"></script>
+<br>
+<script src="https://embed.github.com/view/geojson/yanna92yar/open-listings-data/main/geojson_nation_US.geojson"></script>
+<br>
+<script src="https://embed.github.com/view/geojson/yanna92yar/open-listings-data/main/italy-provinces-Ramer–Douglas–Peucker.json"></script>
+
 ## Multi-languages
 
 Open-listings support multiple languages not only for the user interface, but through the whole user experience. Something like Quora, but can be more implicit providing an easier navigation either for publishers or viewers.
