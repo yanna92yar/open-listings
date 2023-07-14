@@ -1,0 +1,94 @@
+<% if(typeof announcements !== 'undefined'){ %>
+<script>
+  __announcements__ = <%~ JSON.stringify(announcements) %>
+</script>
+<% } %>
+<% if(typeof success !== 'undefined'){ %>
+<script>
+  var getTest = "<%~ success  %>"
+  if (getTest)
+    __successes__.push(getTest)
+</script>
+<% } %>
+<% if(typeof error !== 'undefined'){ %>
+<script>
+  __errors__ = <%~ JSON.stringify(error) %>
+</script>
+<% } %>
+<% if(typeof toFocus !== 'undefined'){ %>
+<script>
+  var __toFocus__ = "<%~ toFocus  %>"
+</script>
+<% } %>
+<% if(typeof data !== 'undefined' && typeof data._id !== 'undefined'){ %>
+<script>
+  var __id__ = "<%~ data._id  %>"
+</script>
+<% } %>
+<% if(typeof data !== 'undefined' && typeof data.lat !== 'undefined'){ %>
+<script>
+  var __lat__ = "<%~ data.lat  %>"
+</script>
+<% } %>
+<% if(typeof data !== 'undefined' && typeof data.lng !== 'undefined'){ %>
+<script>
+  var __lng__ = "<%~ data.lng  %>"
+</script>
+<% } %>
+<% if(typeof context !== 'undefined'){ %>
+<script>
+  var __context__ = "<%~ context  %>"
+</script>
+<% } %>
+<% if(typeof section !== 'undefined'){ %>
+<script>
+  var __section__ = "<%~ section  %>"
+</script>
+<% } %>
+<% if(typeof channel !== 'undefined'){ %>
+<script>
+  var __channel__ = "<%~ channel  %>"
+</script>
+<% } %>
+<% if(typeof data !== 'undefined' && typeof data.font !== 'undefined'){ %>
+<script>
+  var __font__ = "<%~ data.font  %>"
+</script>
+<% } %>
+<% if(typeof data !== 'undefined' && typeof data.usr !== 'undefined'){ %>
+<script>
+  var __initials__ = "<%~ data.usr  %>"
+</script>
+<% } %>
+<% if(typeof data !== 'undefined' && typeof data.email !== 'undefined'){ %>
+<script>
+  var __email__ = "<%~ data.email  %>"
+</script>
+<% } %>
+<% if(typeof data !== 'undefined' && typeof data.undraw !== 'undefined'){ %>
+<script>
+  var __undrawURL__ = "<%~ data.undraw  %>"
+  var __color__ = "<%~ data.color  %>"
+</script>
+<% } %>
+<% if(typeof addressPoints !== 'undefined'){ %>
+<script>
+  var __addressPoints__ = <%~ JSON.stringify(addressPoints) %>
+</script>
+<% } %>
+<% if(typeof UXConstraints !== 'undefined'){ %>
+<script>
+  var __UXConstraints__ = <%~ JSON.stringify(UXConstraints) %>
+</script>
+<% } %>
+<% if(typeof formData !== 'undefined'){ %>
+<script>
+  var __formData__ = <%~ JSON.stringify(formData) %>
+</script>
+<% } %>
+<% if(typeof noads !== 'undefined'){ %>
+<script>
+  var __grade__ = "<%~ noads.grade  %>"
+  __urls__ = <%~ JSON.stringify(noads.urls) %>
+</script>
+<% } %>

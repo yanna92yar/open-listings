@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <%~ includeFile('../partials/shared/head', it); %>
+</head>
+
+<body>
+  <%~ includeFile('../partials/shared/navbar', it); %>
+  <div class="container">
+    <%~ includeFile('../partials/shared/lead', it); %>
+
+    <div class="col-sm-6 col-sm-offset-3">
+
+      <h1><span class="fa fa-sign-in">&#8203;</span> <span data-trans="(signup)">Sign-up</span></h1>
+
+      <!-- LOGIN FORM -->
+      <form action="/signup" method="post" name="doSignup">
+        <div class="form-group">
+          <label data-trans="(secondname)" for="secondName">Family name</label>
+          <input type="text" class="form-control" id="secondName" name="secondName">
+        </div>
+        <div class="form-group">
+          <label data-trans="(firstname)" for="firstName">First name</label>
+          <input type="text" class="form-control" id="firstName" name="firstName">
+        </div>
+        <div class="form-group">
+          <label data-trans="(email)" for="username">Email</label>
+          <input type="text" class="form-control" id="username" name="username">
+        </div>
+        <div class="form-group">
+          <label data-trans="(password)" for="password">Password</label>
+          <input type="password" class="form-control" id="password" name="password">
+        </div>
+        <p>By subscribing you accept user terms</p>
+        <button type="submit" class="btn btn-warning btn-lg" data-trans="(signup)">Sign-up</button>
+      </form>
+
+    </div>
+
+    <%~ includeFile('../partials/conf/prepare_js', it); %>
+    <%~ includeFile('../partials/shared/footer', it); %>
+  </div>
+  <%~ includeFile('../partials/conf/before_body_close', it); %>
+</body>
+
+</html>

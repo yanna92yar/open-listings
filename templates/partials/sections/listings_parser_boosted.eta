@@ -1,0 +1,26 @@
+<div id="listings_parser_component">
+  <% if(typeof listings !== 'undefined' && listings.length> 0 ){ %>
+  <div class="row align-items-stretch ca-listings">
+    <% for (var i = 0; i < listings.length ; i++) { %>
+    <div class="col-sm col-md-6 col-xl-4">
+      <div class="h-100 pb-3" id="<%= listings[i]._id %>-@@@@@">
+        <div class="card mb-3 h-100 <%= listings[i].section %> <%= listings[i].a %> <%= listings[i].d %>">
+          <% if(typeof listings[i].thum !== 'undefined'){ %>
+          <img src="<%= listings[i].thum %>" alt="<%= listings[i].title + ' image' %>" class="card-img-top">
+          <% } else if (typeof listings[i].img !== 'undefined') { %>
+          <img src="<%= listings[i].img %>" alt="<%= listings[i].title + ' image' %>" class="card-img-top">
+          <% } else { %>
+          <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c" /><text dominant-baseline="middle" text-anchor="middle" x="50%" y="50%" fill="#eceeef" font-size="30"><%= listings[i].section %></text>
+          </svg>
+          <% } %>
+          <%~ includeFile('card_body', {listing: it.listings[i], interactive: it.interactive}); %>
+        </div>
+      </div>
+    </div>
+    <% } %>
+  </div>
+  <% } %>
+  <%~ includeFile('../shared/pagination_boosted', it); %>
+</div>

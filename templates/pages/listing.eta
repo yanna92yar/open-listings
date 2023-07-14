@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <%~ includeFile('../partials/shared/head', it); %>
+  <% if(typeof title !== 'undefined' && title === 'Reactivate') { %>
+  <style>
+    body {
+      background-image: linear-gradient(transparent 50%, rgb(226 169 169 / 50%) 50%);
+      background-size: 1px 4px;
+    }
+  </style>
+  <% } %>
+</head>
+
+
+<body>
+  <%~ includeFile('../partials/shared/navbar', it); %>
+  <div class="container">
+    <%~ includeFile('../partials/shared/lead', it); %>
+
+    <div class="listing">                                         <% /* <----------- start of listing -- */ %>
+      <%~ includeFile('../partials/sections/breadcrumb', it); %>
+      <p data-trans="(posted-by)">Posted by:</p>
+      <div id="user">
+        <img src="" id='avatar' width="80" height="80" alt="User">
+        <% /* Button trigger modal */ %>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-backdrop="false">
+          Send a message
+        </button>
+        <% /* Modal */ %>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Address a private message to the author</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form class="p-3" id="message-dialog" action="/listings/sendMessage" method="POST" name="sendMessage">
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <div id="message-editor" class="pell px-3 pt-3 bg-white border-bottom-0" data-target="#unique_target" data-max="500" style="color: #333!important;fill: #333!important;"></div>
+                    <div id="characters-left" class="px-2" style="font-size: 12px; font-family: 'Lucida Console', Arial, Helvetica, sans-serif;"></div>
+                  </div>
+                  <input type="hidden" name="email" value='<%= data.email %>'>
+                  <input type="hidden" name="id" value='<%= data._id %>'>
+                  <input name="message" class="add" id="message" value="" type="hidden">
+                  <div class="w-100">
+                    <button type="submit" class="btn btn-primary w-100 py-2 sm:w-auto sm:py-1" data-trans="(send)">Send</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>                                                            <% /* <----------- end of listing */ %>
+
+    <% for (var i=0; data.tags && data.tags.length > 0 && i < data.tags.length ; i++) { %>
+    <a href="/tag/<%= data.tags[i] %>"><span class="badge bg-secondary"><%= data.tags[i] %></span></a>
+    <% } %>
+
+    <% if (typeof data.undraw !== 'undefined') { %>
+    <div id="undraw-output">
+      <img class="svg2" src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/<%= data.undraw+'.svg' %>" alt="<%= data.undraw %>" style="width: 40rem;">
+    </div>
+    <% } %>
+
+    <div id="font-picker"></div>
+
+    <h2><%= data.title %></h2>
+    <p class="apply-font"><%~ data.desc %></p>
+
+    <% if (data.section === 'markets') { %>
+    <div class="map" id="listing-map"></div>
+    <% } %>
+    <br>
+
+    <% if(typeof data.img !== 'undefined'){ %>
+    <div class="d-flex">                                  <% /* <----------- start of img */ %>
+      <div class="mx-auto mx-lg-0">
+        <img id="listingImg" src="<%= data.img %>" alt="<%= data.title + ' image' %>" width="200rem">
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img src="" alt="" class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>                                                 <% /* <----------- end of img */ %>
+    <% } %>
+
+  <%~ includeFile('../partials/conf/prepare_js', it); %>
+  <%~ includeFile('../partials/shared/footer', it); %>
+  </div>
+
+  <%~ includeFile('../partials/conf/before_body_close', it); %>
+  <script>
+    {
+      const scriptElement = document.createElement("script")
+      scriptElement.src = "/javascripts/listing/listing.js"
+      document.body.appendChild(scriptElement)
+
+    }
+  </script>
+</body>
+
+</html>

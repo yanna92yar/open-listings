@@ -1,0 +1,16 @@
+fblog -f 'level ~= "info"' # will print all message where the level is not info
+fblog -f 'process == "play"' # will print all message where the process is play
+fblog -f 'string.find(fu, "bow.*") ~= nil' # will print all messages where fu starts with bow
+fblog -f 'process == "play"' # will print all message where the process is play
+fblog -f 'process == "rust" and fu == "bower"'
+fblog --no-implicit-filter-return-statement -f 'if 3 > 2 then return true else return false end'
+
+# not valid lua identifiers like log.level gets converted to log_level.
+# Every character that is not _ or a letter will be converted to _
+fblog -d -f 'log_level == "WARN"' sample_elastic.log
+
+# nested fields are converted to lua records
+fblog  -d -f 'status.a == 100' sample_nested.json.log
+
+# array fields are converted to lua tables (index starts with 1)
+fblog  -d -f 'status.d[2] == "a"' sample_nested.json.log

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+<head>
+  <%~ includeFile('../partials/others/datatables', it); %>
+</head>
+
+<body class="dark">
+  <%~ includeFile('../partials/shared/navbar', it); %>
+  <div class="container">
+    <div class="p-5 rounded">
+      <h1><%= title %></h1>
+      <p class="lead" data-trans="tags-page.intro">Here you can choose a specific tag for markets section. Please take your time to choose the best tag that suits your item.</p>
+      <a class="btn btn-lg btn-primary" href="/docs/5.0/components/navbar/" role="button">View navbar docs »</a>
+    </div>
+
+    <div class="d-flex justify-content-start align-items-center my-3">
+      <div>
+        <h3 class="mb-0">Select language first:</h3>
+      </div>
+      <div>
+        <select class="mx-3 p-2">
+          <option value="" selected>🌐</option>
+          <option value="get_tags_en">🇬🇧</option>
+          <option value="get_tags_ar">🇩🇿</option>
+          <option value="get_tags_fr">🇫🇷</option>
+        </select>
+      </div>
+    </div>
+    <div class="my-3">
+      <h3>Navigate in table</h3>
+      <table id="table_id" class="display nowrap border mb-4" width="100%" style="min-height:25px;">
+      </table>
+    </div>
+    <div class="d-flex justify-content-start align-items-center my-3 w-100">
+      <div>
+        <h3>Pick the right row then copy:</h3>
+      </div>
+      <div>
+        <p class="grouped m-2">
+          <input id="events" type="text" value="">
+          <button class="copybtn icon-only" type="button" data-clipboard-target="#events" aria-label="Copy to clipboard"><img src="https://icongr.am/feather/copy.svg?size=16" alt=""></button>
+        </p>
+      </div>
+    </div>
+    <p class="next-step">
+
+    </p>
+    <%~ includeFile('../partials/shared/footer', it); %>
+  </div>
+</body>
+<script src="https://cdn.datatables.net/v/dt/dt-1.10.24/sp-1.2.2/sl-1.3.3/datatables.min.js"></script>
+<script>
+  {
+    const scriptElement = document.createElement("script")
+    scriptElement.src = "/javascripts/tags/tags.js"
+    document.body.appendChild(scriptElement)
+  }
+</script>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <%~ includeFile('../partials/shared/head', it); %>
+</head>
+
+<body>
+  <%~ includeFile('../partials/shared/navbar', it); %>
+  <div class="container">
+    <%~ includeFile('../partials/shared/lead', it); %>
+    <section id="docs">
+      <header class="row">
+        <div class="col-sm-6">
+          <h1 class="display-2 py-2 text-xs-center text-sm-left servervar">
+            <%= title %>
+          </h1>
+        </div>
+        <div class="col-sm-6 hidden">
+          <h2>docs</h2>
+        </div>
+        <div class="col-sm-6 d-flex align-items-center justify-content-stretch">
+          <nav class="navbar navbar-expand navbar-light mb-0 w-100">
+            <ul class="navbar-nav w-100 justify-content-around">
+              <% for(var i=0; i < sections.length; i++) { %>
+              <li class="nav-item">
+                <a class="nav-link" href="#<%= sections[i].id %>"><%= sections[i].id %></a>
+              </li>
+              <% } %>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </section>
+    <% for(var i=0; i < sections.length; i++) { %>
+    <h3 id="<%= sections[i].id %>"><%= sections[i].id %></h3>
+    <%~ sections[i].html %>
+    <% } %>
+    <%~ includeFile('../partials/shared/footer', it); %>
+  </div>
+  <%~ includeFile('../partials/conf/prepare_js', it); %>
+  <%~ includeFile('../partials/conf/before_body_close', it); %>
+</body>
+
+</html>

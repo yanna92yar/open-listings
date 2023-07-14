@@ -1,0 +1,56 @@
+# Google_Product_Taxonomy_Version: 2015-02-19
+772 - Adulte
+780 - Adulte > Armes
+2214 - Adulte > Armes > Accessoires et entretien des armes à feu
+503026 - Adulte > Armes > Accessoires et entretien des armes à feu > Accessoires et équipements pour le rechargement
+499857 - Adulte > Armes > Accessoires et entretien des armes à feu > Accessoires et équipements pour le rechargement > Presses pour le rechargement de munitions
+499853 - Adulte > Armes > Accessoires et entretien des armes à feu > Bretelles pour armes
+1822 - Adulte > Armes > Accessoires et entretien des armes à feu > Canons à rails
+5067 - Adulte > Armes > Accessoires et entretien des armes à feu > Lampes pour armes
+781 - Adulte > Armes > Accessoires et entretien des armes à feu > Munitions
+503021 - Adulte > Armes > Accessoires et entretien des armes à feu > Nettoyage d'armes
+499855 - Adulte > Armes > Accessoires et entretien des armes à feu > Nettoyage d'armes > Chiffons de nettoyage d'armes
+499856 - Adulte > Armes > Accessoires et entretien des armes à feu > Nettoyage d'armes > Patchs de nettoyage d'armes
+499854 - Adulte > Armes > Accessoires et entretien des armes à feu > Nettoyage d'armes > Solvants de nettoyage d'armes
+1806 - Adulte > Armes > Accessoires et entretien des armes à feu > Poignées de revolver
+1783 - Adulte > Armes > Accessoires et entretien des armes à feu > Étuis de revolver
+505762 - Adulte > Armes > Accessoires et entretien des armes à feu > Étuis et supports pour munitions
+500048 - Adulte > Armes > Accessoires et entretien des armes à feu > Étuis à revolver et sacs de rangement
+782 - Adulte > Armes > Armes à feu
+726 - Adulte > Armes > Bombes et sprays au poivre
+3833 - Adulte > Armes > Coups-de-poing américains
+6109 - Adulte > Armes > Couteaux de combat
+3437 - Adulte > Armes > Fouets et martinets
+7175 - Adulte > Armes > Lances
+7567 - Adulte > Armes > Massues et matraques
+3924 - Adulte > Armes > Matraques et bâtons
+3092 - Adulte > Armes > Nunchakus
+727 - Adulte > Armes > Pistolets paralysants et tasers
+3666 - Adulte > Armes > Épées
+3694 - Adulte > Armes > Étoiles de ninja
+773 - Adulte > Érotisme
+5055 - Adulte > Érotisme > Articles érotiques comestibles
+776 - Adulte > Érotisme > DVD et vidéos érotiques
+6040 - Adulte > Érotisme > Jeux érotiques
+6536 - Adulte > Érotisme > Kits de pole dance
+774 - Adulte > Érotisme > Lingerie érotique
+779 - Adulte > Érotisme > Livres érotiques
+4060 - Adulte > Érotisme > Magazines érotiques
+778 - Adulte > Érotisme > Sex toys
+7215 - Équipements sportifs > Loisirs de plein air > Équitation > Accessoires de harnachement pour chevaux
+8107 - Équipements sportifs > Loisirs de plein air > Équitation > Accessoires de harnachement pour chevaux > Accessoires de selles
+7216 - Équipements sportifs > Loisirs de plein air > Équitation > Accessoires de harnachement pour chevaux > Accessoires de selles > Porte-selles
+326122 - Équipements sportifs > Loisirs de plein air > Équitation > Accessoires de harnachement pour chevaux > Accessoires de selles > Sacs et sacoches de selles
+8108 - Équipements sportifs > Loisirs de plein air > Équitation > Accessoires de harnachement pour chevaux > Accessoires de selles > Tapis de selles
+499959 - Équipements sportifs > Loisirs de plein air > Équitation > Accessoires de harnachement pour chevaux > Accessoires de selles > Étuis et housses pour selles
+499820 - Équipements sportifs > Loisirs de plein air > Équitation > Accessoires de harnachement pour chevaux > Coffres d'écurie
+3257 - Équipements sportifs > Loisirs de plein air > Équitation > Articles pour chevaux
+7482 - Équipements sportifs > Loisirs de plein air > Équitation > Articles pour chevaux > Aliments pour chevaux
+5025 - Équipements sportifs > Loisirs de plein air > Équitation > Articles pour chevaux > Articles de toilettage pour chevaux
+499818 - Équipements sportifs > Loisirs de plein air > Équitation > Articles pour chevaux > Articles de toilettage pour chevaux > Peignes, brosses et gants de toilettage
+6386 - Équipements sportifs > Loisirs de plein air > Équitation > Articles pour chevaux > Articles de toilettage pour chevaux > Tondeuses pour chevaux
+6898 - Équipements sportifs > Loisirs de plein air > Équitation > Articles pour chevaux > Couvertures pour chevaux
+7481 - Équipements sportifs > Loisirs de plein air > Équitation > Articles pour chevaux > Friandises pour chevaux
+5569 - Équipements sportifs > Loisirs de plein air > Équitation > Articles pour chevaux > Guêtres et cloches pour chevaux
+499817 - Équipements sportifs > Loisirs de plein air > Équitation > Articles pour chevaux > Masques anti-mouches pour chevaux
+499819 - Équipements sportifs > Loisirs de plein air > Équitation > Articles pour chevaux > Vermifuges pour chevaux

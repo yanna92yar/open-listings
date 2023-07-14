@@ -1,0 +1,14 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/.*
+<PROJECT_ROOT>/client/node_modules/.*
+
+[include]
+./libs
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]
